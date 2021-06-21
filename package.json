@@ -1,0 +1,32 @@
+{
+  "name": "insuredmine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-worker ./src/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "child_process": "^1.0.2",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "csv": "^5.5.0",
+    "csv-parse": "^4.15.4",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "http": "0.0.1-security",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mongodb-uri": "^0.9.7",
+    "mongoose": "^5.12.11",
+    "multer": "^1.4.2",
+    "node-worker-threads-pool": "^1.4.3",
+    "path": "^0.12.7",
+    "pm2": "^5.1.0",
+    "usage": "^0.7.1"
+  }
+}
